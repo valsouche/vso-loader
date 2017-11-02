@@ -1,6 +1,7 @@
 {
   "name": "vso-loader",
-  "version": "0.0.0",
+  "version": "1.0.3",
+  "description": "Loader for angular 4",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -8,9 +9,22 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valsouche/vso-loader.git"
+  },
+  "keywords": [
+    "angular",
+    "angular4",
+    "loader",
+    "angular4",
+    "spinner"
+  ],
+  "author": "Valentin Souche",
+  "private": false,
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
@@ -37,9 +51,10 @@
     "karma": "~1.7.0",
     "karma-chrome-launcher": "~2.1.1",
     "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "ng-packagr": "^1.5.0-rc.1",
     "protractor": "~5.1.2",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",

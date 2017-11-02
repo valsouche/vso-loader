@@ -1,0 +1,44 @@
+<svg width="100px"  height="100px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-flat-cube" style="background: none;">
+    <defs>
+      <mask ng-attr-id="{{config.mid}}" id="lds-flat-cube-mask-f2b24c188a04b">
+        <circle cx="50" cy="50" r="45" fill="#fff"></circle>
+      </mask>
+    </defs>
+    <circle cx="50" cy="50" r="45" ng-attr-fill="{{config.base}}" fill="#4672be"></circle>
+    <g ng-attr-mask="url(#{{config.mid}})" mask="url(#lds-flat-cube-mask-f2b24c188a04b)">
+      <g transform="translate(50,50)">
+        <g transform="scale(0.5)">
+          <g transform="translate(-50,-50)">
+            <g transform="translate(25,25)">
+              <g transform="scale(1.3187 1.3187)">
+                <path ng-attr-d="{{config.d}}" ng-attr-fill="{{config.dark}}" d="M -20 20 L 20 -20 L 120 80 L 80 120 L -20 20" fill="rgb(57, 92, 153)"></path>
+                <rect ng-attr-x="{{config.dp}}" ng-attr-y="{{config.dp}}" ng-attr-width="{{config.blockSize}}" ng-attr-height="{{config.blockSize}}" ng-attr-fill="{{config.c1}}" x="-20" y="-20" width="40" height="40" fill="#e74c3c"></rect>
+                <animateTransform attributeName="transform" type="scale" calcMode="spline" values="1.5;1" keyTimes="0;1" dur="1s" keySplines="0 0.5 0.5 1" begin="-0.3s" repeatCount="indefinite"></animateTransform>
+              </g>
+            </g>
+            <g transform="translate(75,25)">
+              <g transform="scale(1.00009 1.00009)">
+                <path ng-attr-d="{{config.d}}" ng-attr-fill="{{config.dark}}" d="M -20 20 L 20 -20 L 120 80 L 80 120 L -20 20" fill="rgb(57, 92, 153)"></path>
+                <rect ng-attr-x="{{config.dp}}" ng-attr-y="{{config.dp}}" ng-attr-width="{{config.blockSize}}" ng-attr-height="{{config.blockSize}}" ng-attr-fill="{{config.c2}}" x="-20" y="-20" width="40" height="40" fill="#f1c40f"></rect>
+                <animateTransform attributeName="transform" type="scale" calcMode="spline" values="1.5;1" keyTimes="0;1" dur="1s" keySplines="0 0.5 0.5 1" begin="-0.2s" repeatCount="indefinite"></animateTransform>
+              </g>
+            </g>
+            <g transform="translate(25,75)">
+              <g transform="scale(1.01489 1.01489)">
+                <path ng-attr-d="{{config.d}}" ng-attr-fill="{{config.dark}}" d="M -20 20 L 20 -20 L 120 80 L 80 120 L -20 20" fill="rgb(57, 92, 153)"></path>
+                <rect ng-attr-x="{{config.dp}}" ng-attr-y="{{config.dp}}" ng-attr-width="{{config.blockSize}}" ng-attr-height="{{config.blockSize}}" ng-attr-fill="{{config.c3}}" x="-20" y="-20" width="40" height="40" fill="#3498db"></rect>
+                <animateTransform attributeName="transform" type="scale" calcMode="spline" values="1.5;1" keyTimes="0;1" dur="1s" keySplines="0 0.5 0.5 1" begin="0s" repeatCount="indefinite"></animateTransform>
+              </g>
+            </g>
+            <g transform="translate(75,75)">
+              <g transform="scale(1.00442 1.00442)">
+                <path ng-attr-d="{{config.d}}" ng-attr-fill="{{config.dark}}" d="M -20 20 L 20 -20 L 120 80 L 80 120 L -20 20" fill="rgb(57, 92, 153)"></path>
+                <rect ng-attr-x="{{config.dp}}" ng-attr-y="{{config.dp}}" ng-attr-width="{{config.blockSize}}" ng-attr-height="{{config.blockSize}}" ng-attr-fill="{{config.c4}}" x="-20" y="-20" width="40" height="40" fill="#ce64a6"></rect>
+                <animateTransform attributeName="transform" type="scale" calcMode="spline" values="1.5;1" keyTimes="0;1" dur="1s" keySplines="0 0.5 0.5 1" begin="-0.1s" repeatCount="indefinite"></animateTransform>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>

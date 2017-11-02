@@ -1,0 +1,6 @@
+<div *ngIf="loading" class="vso-loader">
+  <div>
+    <img *ngIf="spinner" src="{{spinner}}" [ngStyle]="{'width': loaderConfig.spinnerWidth, 'height': loaderConfig.spinnerHeight}">
+    <p>{{loadingMsg}}</p>
+  </div>
+</div>
